@@ -1,234 +1,184 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
-
-
-nav {
-    background-color: rgb(35, 34, 34);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+header {
+  background-color: rgb(35, 34, 34);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 80px;
-    margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+ul.navbar-items {
+  list-style: none;
+  margin-right: 50px;
 }
 
 .logo {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    width: 150px;
-    height: 50px;
-    display: flex;
-    align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .logo a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .navbar-items {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-
-.navbar-items a{
-    color: white;
-    text-decoration: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.navbar-items div {
-    width: 100px;
-    height: 40px;
-    padding-top: 20px;
-    
+.navbar-items a {
+  color: white;
+  text-decoration: white;
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
-
-
-
-
-#headline{
-    width: 100%;
-    height: auto;
-    background-color: #1C1A19;
-    background-image: url("./img/hero.png");
-    background-size: cover;
-    background-position: right;
-    background-size: 600px;
-    background-repeat: no-repeat;
-   
+#headline {
+  width: 100%;
+  height: auto;
+  background-color: #1c1a19;
+  background-image: url("./img/hero.png");
+  background-position: right;
+  background-size: 600px;
+  background-repeat: no-repeat;
 }
 
-
-
-
-.flex-container{
-    display: inline-flex;
-    gap: 80px;
-    height:720px ;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-   
+.flex-container {
+  display: inline-flex;
+  gap: 50px;
+  height: 720px;
+  justify-content: center;
+  align-items: center;
 }
 
-
-
-.intro{
-    font-family:'Crete Round';
-    color: 
-    #F55800;
-    font-weight: 800;
-    font-size:50px;
-    width: 300px;
-    margin-bottom: 0;
+.intro {
+  color: #f55800;
+  font-weight: 800;
+  font-size: 50px;
+  width: 300px;
+  margin-bottom: 0;
 }
 
-.contact-items div {
-    margin-bottom: 10px;
-  }
-
-
-.prof{
-    color: white;
-    
+.contact-items ul {
+  margin-bottom: 20px;
+  list-style: none;
 }
 
-.desc{
-    color: #F4F5F7;
-    width: 400px;
-    line-height: 1.5rem;
+.prof {
+  color: white;
 }
 
-
-
-
-
+.desc {
+  color: #f4f5f7;
+  width: 400px;
+  line-height: 1.5rem;
+}
 
 @media only screen and (max-width: 375px) {
-    #headline{
-        width: 100%;
-        height: auto;
-        background-color: #1C1A19;
-        background-image: url("./img/hero.png");
-        background-position: right bottom;
-        background-size: 200px;
-        background-repeat: no-repeat;
-       
-    }
-    
-    
-    
-    
-    .flex-container{
-        display: flex;
-       flex-direction: column-reverse;
-        height:720px ;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10px;
-       
-    }
-    
-    
-    
-    .intro{
-        font-family:'Crete Round';
-        color: 
-        #F55800;
-        font-weight: 800;
-        font-size:45px;
-        width: 280px;
-        margin-bottom: 0;
-      
-    }
-    .contact-items {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        bottom:80px;
-        right:90px;
-        
-        
-        
-      }
-    .contact-items div {
-       margin-right: 25px;
-       width:0;
-       height:0;
-      }
-    
-    
-    .prof{
-        color: white;
-        font-size:25px;
-        
-        
-    }
-    
-    .desc{
-        color: #F4F5F7;
-        width: 300px;
-        line-height: 1.5rem;
-        
-    }
+  #headline {
+    width: 100%;
+    height: auto;
+    background-color: #1c1a19;
+    background-image: url("./img/hero.png");
+    background-position: right bottom;
+    background-size: 200px;
+    background-repeat: no-repeat;
   }
 
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 720px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
 
+  .intro {
+    color: #f55800;
+    font-weight: 800;
+    font-size: 45px;
+    width: 280px;
+    margin-bottom: 0;
+  }
 
-@media only screen and (max-width: 768px) {
+  .contact-items {
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    right: 80px;
+  }
 
-    
-    #navbar {
-        background-color: black;
-       
-    }
-  
-    .container {
-        flex-direction: row;
-        margin: 0;
-        padding: 10px;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+  .contact-items ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-right: 80px;
+  }
 
+  .prof {
+    color: white;
+    font-size: 25px;
+  }
 
-    .navbar-items {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    .hamburger i {
-        color: white;
-    }
-   
-    #headline{
-        width: 100%;
-        height: auto;
-        background-color: #1C1A19;
-        background-image: url("./img/hero.png");
-        background-position: right bottom;
-        background-size: 250px;
-        background-repeat: no-repeat;
-       
-    }
+  .desc {
+    color: #f4f5f7;
+    width: 300px;
+    line-height: 1.5rem;
+  }
 }
 
+@media only screen and (max-width: 768px) {
+  #navbar {
+    background-color: black;
+  }
+
+  .container {
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+
+  .hamburger i {
+    color: white;
+  }
+
+  #headline {
+    width: 100%;
+    height: auto;
+    background-color: #1c1a19;
+    background-image: url("./img/hero.png");
+    background-position: right bottom;
+    background-size: 250px;
+    background-repeat: no-repeat;
+  }
+}
