@@ -82,83 +82,42 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
+
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+A web browser that supports HTML and CSS.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+git clone git@github.com:myaccount/Portfolio.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
+O
+pen the cloned project folder and navigate to the index.html file. Double-click on the file to open it in your web browser. This will display the project's HTML and CSS content.
 
-To run the project, execute the following command:
 
-<!--
-Example command:
+### Customization
+To customize the project, you can modify the HTML and CSS files according to your preferences. Open the project folder in a text editor of your choice, such as Visual Studio Code, and make the desired changes.
 
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+Open in chrome.
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+To deploy this project, you can upload the project folder (including the HTML and CSS files) to a web server or hosting service of your choice. Ensure that the server supports serving static HTML and CSS files.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,9 +129,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/Xghayor)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ghayoor-ul-baqir)
 
 👤 **Author2**
 
@@ -188,9 +147,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Achievements]**
+- [ ] **[Projects]**
+- [ ] **[Contact-form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,9 +167,11 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> If you like this project and find it useful, I would greatly appreciate your support! By contributing to this project, you can help it grow and improve for the benefit of others. There are several ways you can support:
 
-If you like this project...
+1.Spread the word
+2.Contribute
+3.Provide feedback
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +181,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microvers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,6 +207,5 @@ I would like to thank...
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
