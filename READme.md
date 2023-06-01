@@ -22,11 +22,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-Portfolio] <a name="about-project"></a>
+# 📖 My-Portfolio <a name="about-project"></a>
 
 > My personal portfolio website showcasing my skills, projects, and achievements as a web developer
 
-**[My-Portfolio]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,11 +59,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Responsive-Design]**
-- **[Call-to-action]**
-- **[Hero-Section]**
+- **Responsive-Design**
+- **Call-to-action**
+- **Hero-Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +72,6 @@
 
 > Will be available soon.
 
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +98,7 @@ git clone git@github.com:myaccount/Portfolio.git
 
 
 ### Usage
-O
-pen the cloned project folder and navigate to the index.html file. Double-click on the file to open it in your web browser. This will display the project's HTML and CSS content.
+Open the cloned project folder and navigate to the index.html file. Double-click on the file to open it in your web browser. This will display the project's HTML and CSS content.
 
 
 ### Customization
@@ -133,11 +129,6 @@ To deploy this project, you can upload the project folder (including the HTML an
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ghayoor-ul-baqir)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,11 +136,11 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> 
 
-- [ ] **[Achievements]**
-- [ ] **[Projects]**
-- [ ] **[Contact-form]**
+- [ ] **Achievements**
+- [ ] **Projects**
+- [ ] **Contact-form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,9 +170,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank Microvers.
+
+> I would like to thank Microvers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +180,7 @@ I would like to thank Microvers.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> 
 
 - **[Question_1]**
 
