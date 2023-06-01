@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-nav {
+header {
   background-color: rgb(35, 34, 34);
   position: fixed;
   top: 0;
@@ -16,6 +16,11 @@ nav {
   align-items: center;
   margin-left: 80px;
   margin-right: 40px;
+}
+
+ul.navbar-items {
+  list-style: none;
+  margin-right: 50px;
 }
 
 .logo {
@@ -43,12 +48,6 @@ nav {
   text-decoration: white;
 }
 
-.navbar-items div {
-  width: 100px;
-  height: 40px;
-  padding-top: 20px;
-}
-
 .hamburger {
   display: none;
 }
@@ -69,7 +68,6 @@ nav {
   height: 720px;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
 }
 
 .intro {
@@ -80,8 +78,9 @@ nav {
   margin-bottom: 0;
 }
 
-.contact-items div {
+.contact-items ul {
   margin-bottom: 10px;
+  margin-right: -20px;
 }
 
 .prof {
@@ -124,16 +123,16 @@ nav {
 
   .contact-items {
     display: flex;
-    flex-direction: row;
     position: relative;
-    bottom: 80px;
-    right: 90px;
+    bottom: 100px;
+    right: 80px;
   }
 
-  .contact-items div {
-    margin-right: 25px;
-    width: 0;
-    height: 0;
+  .contact-items ul {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-right: 80px;
   }
 
   .prof {
@@ -155,20 +154,18 @@ nav {
 
   .container {
     flex-direction: row;
-    margin: 0;
-    padding: 10px;
     margin-left: 40px;
     margin-right: 40px;
   }
 
-  .navbar-items {
-    display: none;
-  }
-
   .hamburger {
     display: flex;
-    align-items: center;
     cursor: pointer;
+    justify-content: flex-end;
+  }
+
+  .navbar-items {
+    display: none;
   }
 
   .hamburger i {
