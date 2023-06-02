@@ -98,7 +98,6 @@ ul.navbar-items {
   line-height: 1.5rem;
 }
 
-
 /* Works section styling */
 
 #works-section {
@@ -249,8 +248,6 @@ hr {
   margin-left: 200px;
 }
 
-
-
 /* About me section styling */
 
 #about-page-container {
@@ -400,7 +397,6 @@ button:hover {
     line-height: 1.5rem;
   }
 
-
   /* works-section responsive style  */
 
   #works-section {
@@ -475,11 +471,6 @@ button:hover {
     height: 50px;
     margin-bottom: -30px;
   }
-
-
-
-
-
 
   /* about-section responsive styles */
 
@@ -601,9 +592,6 @@ button:hover {
     background-repeat: no-repeat;
   }
 
-
-
-
   /* works-section responsive style  */
 
   #works-section {
@@ -674,11 +662,6 @@ button:hover {
     height: 50px;
     margin-bottom: -30px;
   }
-
-
-
-
-
 
   /* about-section responsive styles */
 
