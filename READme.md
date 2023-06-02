@@ -63,6 +63,8 @@
 - **Responsive-Design**
 - **Call-to-action**
 - **Hero-Section**
+- **Projects**
+- **About-me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,8 +138,6 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 > 
 
-- [ ] **Achievements**
-- [ ] **Projects**
 - [ ] **Contact-form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
