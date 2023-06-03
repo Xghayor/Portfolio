@@ -128,12 +128,15 @@ ul.navbar-items {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   margin: 0 200px;
+  
 }
 
 .grid-item {
   position: relative;
   background-color: #eaeaea;
   height: 400px;
+  
+  
 }
 
 .first-desc h3 {
@@ -174,31 +177,37 @@ ul.navbar-items {
 .grid-item:nth-child(1) {
   background-image: url("./img/grid-1.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-item:nth-child(2) {
   background-image: url("./img/grid-2.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-item:nth-child(3) {
   background-image: url("./img/grid-3.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-item:nth-child(4) {
   background-image: url("./img/grid-4.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-item:nth-child(5) {
   background-image: url("./img/grid-5.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .grid-item:nth-child(6) {
   background-image: url("./img/grid-6.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .item-child {
@@ -243,6 +252,12 @@ ul.navbar-items {
 .item-child ul {
   padding-left: 0;
   margin-left: 10px;
+}
+
+.last-btn:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
 }
 
 .last-btn {
@@ -394,10 +409,34 @@ hr {
   list-style: none;
   color: white;
 }
+.about-btn:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
 
-button:hover {
-  border: 2px solid #0f0e0e;
-  cursor: pointer;
+.first-desc button:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
+
+.grid-btn:hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
+.first-btn :hover{
+  background: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
+.first-desc button {
+  margin-top: 20px;
+  color: #f4f5f7;
 }
 
 @media only screen and (max-width: 385px) {
@@ -446,7 +485,7 @@ button:hover {
   }
 
   .prof {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff5e1;
     font-style: normal;
     font-weight: 700;
@@ -457,7 +496,7 @@ button:hover {
   .desc {
     color: #f4f5f7;
     width: 300px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -492,8 +531,10 @@ button:hover {
     margin: 0;
     padding-left: 4%;
     padding-right: 4%;
+    
   }
 
+  
   .first-desc {
     text-align: left;
     margin: 10px;
@@ -542,6 +583,7 @@ button:hover {
     width: 100%;
     height: 50px;
     margin-bottom: -30px;
+    
   }
 
   .grid-btn {
@@ -689,7 +731,7 @@ button:hover {
   }
 
   .left-section img {
-    width: 50%;
+    width: 100%;
   }
 
   .grid-container {
