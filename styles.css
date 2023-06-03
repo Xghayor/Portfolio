@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Crete Round';
 }
 
 h3 {
@@ -13,6 +14,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 999;
+  
 }
 
 .container {
@@ -21,11 +23,13 @@ header {
   align-items: center;
   margin-left: 80px;
   margin-right: 40px;
+  overflow-x: hidden;
 }
 
 ul.navbar-items {
   list-style: none;
   margin-right: 50px;
+  
 }
 
 .logo {
@@ -35,17 +39,20 @@ ul.navbar-items {
   height: 50px;
   display: flex;
   align-items: center;
+  
 }
 
 .logo a {
   color: #efe4e4;
   text-decoration: none;
+  
 }
 
 .navbar-items {
   display: flex;
   gap: 10px;
   align-items: center;
+  
 }
 
 .navbar-items a {
@@ -73,6 +80,7 @@ ul.navbar-items {
   height: 720px;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .intro {
@@ -102,6 +110,7 @@ ul.navbar-items {
 
 #works-section {
   margin: 10px 0;
+  overflow-y: hidden;
 }
 
 .box-container {
@@ -133,14 +142,20 @@ ul.navbar-items {
 }
 
 .first-desc h3 {
-  font-size: 30px;
+
+  color: #091E42  !important;
+  font-size: 32px !important;
+  line-height: 44px !important;
+  
 }
 
 .first-desc p {
-  font-size: 20px;
+font-size: 16px !important;
+line-height: 25px;
+text-align: left;
 }
 
-.first-desc li {
+.first-desc ul li {
   display: inline-block;
   list-style: none;
   border: 1px solid grey;
@@ -153,7 +168,14 @@ ul.navbar-items {
 .first-desc button {
   background-color: #f55800;
   border: none;
-  padding: 15px;
+  padding: 10px 10px;
+  margin-top:-40px !important;
+  font-family: 'Crete Round'  !important;
+  font-style: normal  !important;
+  font-weight: 700px !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.03em;
 }
 
 .grid-item:nth-child(1) {
@@ -193,16 +215,25 @@ ul.navbar-items {
   text-align: left;
 }
 
+.items-details{
+  padding:50px 50px 10px 10px;
+  text-align: left;
+}
+
+
+
 .item-child h3 {
   color: #ffff;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 .item-child p {
   color: #ffff;
   text-align: left;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 .item-child ul li {
@@ -211,6 +242,8 @@ ul.navbar-items {
   list-style: none;
   border: 1px solid grey;
   padding: 5px;
+  margin-right: 10px;
+  
 }
 
 .item-child button {
@@ -219,22 +252,43 @@ ul.navbar-items {
 
 .item-child ul {
   padding-left: 0;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-.first-btn {
-  position: relative;
+
+.last-btn{
+  color: #efe4e4;
+  background-color: #FF6B00;
+  padding-bottom: 40px;
+  text-align: center;
   width: 100%;
+  height: 51px;
+  border: none;
+  font-family: 'Crete Round'  !important;
+  font-style: normal  !important;
+  font-weight: 700px !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.03em;
 }
+
+
+
 
 .first-btn button {
   color: #efe4e4;
-  background-color: #f55800;
+  background-color: #FF6B00;
   position: relative;
   top: 350px;
   width: 100%;
-  height: 49px;
+  height: 51px;
   border: none;
+  font-family: 'Crete Round'  !important;
+  font-style: normal  !important;
+  font-weight: 700px !important;
+  font-size: 17px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.03em;
 }
 
 hr {
@@ -281,21 +335,38 @@ hr {
 }
 
 .about-me-info h2 {
-  color: #ffff;
-  font-size: 44px;
+  color: #FF6B00;
+  font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 50px !important;
+line-height: 88px;
+margin-bottom: 0px  !important;
+
 }
 
 .about-me-info p {
-  color: #ffff;
-  font-size: 25px;
-  text-align: left;
+  color: #F4F5F7;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-top: 0px !important;
 }
 
 .about-me-info button {
+  color: #efe4e4;
   background-color: #f55800;
+  width: 40%;
+  height: 51px;
   border: none;
-  color: white;
-  padding: 15px;
+  font-family: 'Crete Round'  !important;
+  font-style: normal  !important;
+  font-weight: 700px !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.03em;
 }
 
 .about-flex-container {
@@ -353,15 +424,18 @@ button:hover {
     background-position: right bottom;
     background-size: 200px;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 
   .flex-container {
     display: flex;
     flex-direction: column-reverse;
-    height: 720px;
+    height: auto;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+    padding: 100px 0px;
+    overflow-x: hidden;
   }
 
   .intro {
@@ -376,7 +450,7 @@ button:hover {
     display: flex;
     position: relative;
     bottom: 70px;
-    right: 25%;
+    right: 22%;
   }
 
   .contact-items ul {
@@ -401,6 +475,7 @@ button:hover {
 
   #works-section {
     margin-bottom: 100px;
+    overflow-x: hidden;
   }
 
   .box-container {
@@ -443,7 +518,7 @@ button:hover {
     font-size: 14px;
   }
 
-  .first-desc li {
+  .first-desc ul li {
     display: inline-block;
     margin: 10px 0;
     padding-left: 10px;
@@ -451,10 +526,13 @@ button:hover {
 
   .first-desc button {
     margin-top: 20px;
+    color: #f4f5f7;
   }
 
   .hr {
     margin: 20px;
+    font-family:'Crete Round';
+    color: #1C1A19;
   }
 
   hr {
@@ -462,6 +540,7 @@ button:hover {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #212121;
   }
 
   .item-child button {
@@ -472,6 +551,13 @@ button:hover {
     margin-bottom: -30px;
   }
 
+  .grid-btn{
+    border: none;
+    font-family: 'Crete Round';
+    font-size: 17px;
+    color: #F4F5F7;
+    text-align: center;
+  }
   /* about-section responsive styles */
 
   #about-page-container {
@@ -512,8 +598,9 @@ button:hover {
 
   .about-me-image {
     flex: 1;
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin-right: 300px;
   }
 
   .about-flex-container {
@@ -558,6 +645,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  
   #navbar {
     background-color: black;
   }
@@ -656,11 +744,16 @@ button:hover {
   }
 
   .item-child button {
+    border: none;
     display: block;
+    color: white;
+    font-family: 'Crete Round';
+    font-size: 17px;
     background-color: #f55800;
     width: 100%;
     height: 50px;
     margin-bottom: -30px;
+    text-align: center;
   }
 
   /* about-section responsive styles */
@@ -668,6 +761,7 @@ button:hover {
   #about-page-container {
     background-color: #1c1a19;
     padding: 20px;
+    overflow-x: hidden;
   }
 
   .about-me-container {
@@ -676,6 +770,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
+    
   }
 
   .about-me-info {
@@ -710,7 +805,7 @@ button:hover {
 
   .about-me-image img {
     width: 80%;
-    margin-left: 100px;
+    margin-left: 300px;
   }
 
   .about-flex-container {
