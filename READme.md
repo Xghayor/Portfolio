@@ -36,24 +36,11 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -63,6 +50,8 @@
 - **Responsive-Design**
 - **Call-to-action**
 - **Hero-Section**
+- **Projects**
+- **About-me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +83,7 @@ A web browser that supports HTML and CSS.
 
 Clone this repository to your desired folder:
 
-git clone git@github.com:myaccount/Portfolio.git
+git clone git@github.com:Xghayor/Portfolio.git
 
 
 ### Usage
@@ -134,10 +123,6 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> 
-
-- [ ] **Achievements**
-- [ ] **Projects**
 - [ ] **Contact-form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
