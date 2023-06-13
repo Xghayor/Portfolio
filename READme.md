@@ -47,11 +47,12 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Responsive-Design**
+- **Responsive Design**
 - **Call-to-action**
-- **Hero-Section**
+- **Hero Section**
 - **Projects**
-- **About-me**
+- **About Me**
+- **Contact Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +76,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 
-In order to run this project you need:
+In order to run this project, you need:
 
 A web browser that supports HTML and CSS.
 
@@ -114,59 +115,4 @@ To deploy this project, you can upload the project folder (including the HTML an
 👤 **Author1**
 
 - GitHub: [@Xghayor](https://github.com/Xghayor)
-- LinkedIn: [Ghayoorulbaqir](https://linkedin.com/in/ghayoor-ul-baqir)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Contact-form**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> If you like this project and find it useful, I would greatly appreciate your support! By contributing to this project, you can help it grow and improve for the benefit of others. There are several ways you can support:
-
-1.Spread the word
-2.Contribute
-3.Provide feedback
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
-> I would like to thank Microvers.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- LinkedIn:
