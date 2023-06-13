@@ -1,6 +1,4 @@
 
-
-
 body {
   margin: 0;
   font-family: 'Crete Round', sans-serif;
@@ -105,6 +103,10 @@ ul.navbar-items {
   line-height: 1.5rem;
 }
 
+.foter-list li {
+  display: inline-block;
+}
+
 /* Works section styling */
 
 #works-section {
@@ -132,15 +134,12 @@ ul.navbar-items {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
   margin: 0 200px;
-  
 }
 
 .grid-item {
   position: relative;
   background-color: #eaeaea;
   height: 400px;
-  
-  
 }
 
 .first-desc h3 {
@@ -247,7 +246,6 @@ ul.navbar-items {
   list-style: none;
   border: 1px solid grey;
   padding: 5px;
-  
 }
 
 .item-child button {
@@ -258,8 +256,6 @@ ul.navbar-items {
   padding-left: 0;
   margin-left: 10px;
 }
-
-
 
 .last-btn {
   color: #efe4e4;
@@ -276,10 +272,10 @@ ul.navbar-items {
   letter-spacing: 0.03em;
 }
 
-.last-btn:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+.last-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .first-btn button {
@@ -298,11 +294,12 @@ ul.navbar-items {
   letter-spacing: 0.03em;
 }
 
-#about-hr{
+#about-hr {
   margin-left: 13%;
-top: calc(50% - 0px/2 + 0.5px);
-
-border: 1px solid #FFFFFF;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #fff;
 }
 
 hr {
@@ -310,19 +307,15 @@ hr {
   bottom: 30px;
   width: 65%;
   border: 1px solid  #212121;
-  
 }
 
 .hr {
-  
-  font-family: 'Crete Round',sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
 }
-
-
 
 /* About me section styling */
 
@@ -360,24 +353,18 @@ hr {
 
 .about-me-info h2 {
   width: 327px;
-height: 79px;
-
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 72px !important;
-line-height: 88px;
-/* or 122% */
-
-letter-spacing: 0.37px;
-
-/* Theme 3 / Primary 1 */
-
-color: #FF6B00  !important;
+  height: 79px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px !important;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00 !important;
 }
 
 .about-me-info p {
-  color: #F4F5F7;
+  color: #f4f5f7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -388,7 +375,7 @@ color: #FF6B00  !important;
 
 .about-me-info button {
   color: #efe4e4;
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   width: 40%;
   height: 51px;
   border: none;
@@ -405,7 +392,7 @@ color: #FF6B00  !important;
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 20px;
- margin-right: 14%;
+  margin-right: 14%;
   margin-top: 30px;
 }
 
@@ -416,8 +403,8 @@ color: #FF6B00  !important;
 }
 
 .about-flex-item h3 {
-  color: #FFFFFF;
-  font-family: 'Inter',sans-serif;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -440,11 +427,6 @@ color: #FF6B00  !important;
   margin-bottom: 15px;
   list-style: none;
   color: white;
-}
-.about-btn:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
 }
 
 .about-btn:hover {
@@ -479,99 +461,108 @@ color: #FF6B00  !important;
   align-items: center;
   gap: 40px;
   padding: 200px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
+
 .form-container > div:first-child {
   flex: 1;
   padding-bottom: 80px;
   font-family: 'Inter', sans-serif;
-  color: #172B4D;
+  color: #172b4d;
 }
+
 .form-container > div:last-child {
   flex: 2;
   width: 200px;
 }
+
 form > input {
   height: 40px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.first-input{
+
+.first-input {
   width: 40%;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   margin-bottom: 10px;
   color: #979493;
 }
-.second-input{
+
+.second-input {
   width: 40%;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   margin-bottom: 10px;
   color: #979493;
 }
-.third-input{
+
+.third-input {
   width: 82.5%;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   margin-bottom: 10px;
   color: #979493;
 }
-.fourth-input{
+
+.fourth-input {
   width: 82.5%;
   height: 100px;
-  margin-top:20px;
+  margin-top: 20px;
   margin-bottom: 20px;
   resize: both;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   border: none;
-  color: #3C3A39;
+  color: #3c3a39;
   font-family: 'Inter', sans-serif;
 }
+
 .form-btn {
-  color: #EFE4E4;
-  background-color: #FF6B00;
+  color: #efe4e4;
+  background-color: #ff6b00;
   border: none;
   padding: 3px 15px;
   font-family: 'Inter', sans-serif;
-  font-style: normal ;
-  font-weight: 750  !important ;
-  font-size: 17px ;
-  line-height: 50px ;
+  font-style: normal;
+  font-weight: 750 !important;
+  font-size: 17px;
+  line-height: 50px;
   letter-spacing: 0.03em;
   text-align: center;
 }
-.form-btn:hover{
-  background: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+
+.form-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
+
 textarea::placeholder {
   font-style: italic;
 }
+
 footer {
   display: flex;
   justify-content: center;
-  padding: 0px 40px 20px 40px;
+  padding: 0 40px 20px 40px;
   overflow: hidden;
 }
-.footer-list {
+
+.foter-list {
   display: flex;
   gap: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
-  color: #505F79;
+  color: #505f79;
 }
-.footer-list li {
-  display: inline-block;
-}
-.footer-hr{
-  
-  width: 100%;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  border: 1px solid #DFE1E6;
+
+.footer-hr {
+  width: 99%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid #dfe1e6;
 }
 
 @media only screen and (max-width: 385px) {
@@ -666,10 +657,8 @@ footer {
     margin: 0;
     padding-left: 4%;
     padding-right: 4%;
-    
   }
 
-  
   .first-desc {
     text-align: left;
     margin: 10px;
@@ -709,7 +698,6 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    
   }
 
   .item-child button {
@@ -718,7 +706,6 @@ footer {
     width: 100%;
     height: 50px;
     margin-bottom: -30px;
-    
   }
 
   .grid-btn {
@@ -734,7 +721,6 @@ footer {
   #about-page-container {
     background-color: #1c1a19;
     padding: 20px 20px 40px 20px;
-
   }
 
   .about-me-container {
@@ -762,11 +748,10 @@ footer {
   }
 
   .about-me-info button {
-    color: white  !important;
-   
-    background-color: #FF6B00 !important;
-    border: none  !important;
-   width: 40% !important;
+    color: white !important;
+    background-color: #ff6b00 !important;
+    border: none !important;
+    width: 40% !important;
   }
 
   .about-me-image {
@@ -779,9 +764,7 @@ footer {
   .about-flex-container {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
-    
-    
+    margin-top: 0;
   }
 
   .about-flex-item {
@@ -816,7 +799,7 @@ footer {
     color: white;
   }
 
-/* form section */
+  /* form section */
 
   .form-container {
     flex-direction: column;
@@ -833,13 +816,12 @@ footer {
     line-height: 30px;
   }
 
-  .form-data{
-    padding: 0px;
+  .form-data {
+    padding: 0;
   }
 
   .form-container > div:last-child {
     width: 100%;
-   
   }
 
   .first-input,
@@ -855,14 +837,11 @@ footer {
     line-height: 30px;
     margin-left: 100px !important;
   }
-  #input3{
+
+  #input3 {
     display: none;
   }
 }
-
-
-
-
 
 @media only screen and (max-width: 768px) {
   #navbar {
@@ -1010,11 +989,11 @@ footer {
 
   .about-me-info button {
     color: white;
-    padding: 0px;
+    padding: 0;
     background-color: #f55800;
     border: none;
     width: 20%;
-    ont-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -1073,12 +1052,10 @@ footer {
     color: #efe4e4;
   }
 
-  #about-hr{
-    margin-left: 0px;
+  #about-hr {
+    margin-left: 0;
     margin-top: 50px;
   }
-
-
 
   /* form section */
 
@@ -1092,15 +1069,10 @@ footer {
   .form-container > div:first-child {
     padding: 20px;
     text-align: center;
-    
-    
-    
-    
   }
 
   .form-container > div:last-child {
     width: 100%;
-    
   }
 
   .first-input,
@@ -1109,7 +1081,7 @@ footer {
   .fourth-input,
   form > input {
     width: 100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
 
   .form-btn {
@@ -1118,9 +1090,7 @@ footer {
     margin-left: 40%;
   }
 
-
-  .footer-hr{
+  .footer-hr {
     margin-bottom: 10px;
-    
   }
 }
