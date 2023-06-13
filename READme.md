@@ -115,4 +115,4 @@ To deploy this project, you can upload the project folder (including the HTML an
 👤 **Author1**
 
 - GitHub: [@Xghayor](https://github.com/Xghayor)
-- LinkedIn:
+- LinkedIn:[@Ghayoorulbaqir](https://www.linkedin.com/in/ghayoorulbaqir/)
