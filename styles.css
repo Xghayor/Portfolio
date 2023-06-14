@@ -551,10 +551,10 @@ footer {
 
 .foter-list {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 15px;
+  margin: 5px;
   color: #505f79;
 }
 
@@ -606,8 +606,8 @@ footer {
   .contact-items ul {
     display: flex;
     flex-direction: row;
-    gap: 5px;
-    margin-right: 80px;
+    gap: 10px;
+    margin-right: 60px;
   }
 
   .prof {
@@ -1082,6 +1082,10 @@ footer {
   form > input {
     width: 100%;
     overflow-x: hidden;
+  }
+
+  .second-input {
+    display: none;
   }
 
   .form-btn {
