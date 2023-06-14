@@ -103,10 +103,6 @@ ul.navbar-items {
   line-height: 1.5rem;
 }
 
-.foter-list li {
-  display: inline-block;
-}
-
 /* Works section styling */
 
 #works-section {
@@ -551,6 +547,8 @@ footer {
 
 .foter-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   list-style: none;
   padding: 15px;
