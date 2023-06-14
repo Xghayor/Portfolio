@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Crete Round', sans-serif;
@@ -67,7 +68,7 @@ ul.navbar-items {
   background-position: right;
   background-size: 600px;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .flex-container {
@@ -241,7 +242,6 @@ ul.navbar-items {
   list-style: none;
   border: 1px solid grey;
   padding: 5px;
-  margin-right: 10px;
 }
 
 .item-child button {
@@ -256,7 +256,6 @@ ul.navbar-items {
 .last-btn {
   color: #efe4e4;
   background-color: #ff6b00;
-  padding-bottom: 40px;
   text-align: center;
   width: 100%;
   height: 51px;
@@ -279,7 +278,7 @@ ul.navbar-items {
   color: #efe4e4;
   background-color: #f55800;
   position: relative;
-  top: 350px;
+  top: 348.5px;
   width: 100%;
   height: 51px;
   border: none;
@@ -291,22 +290,36 @@ ul.navbar-items {
   letter-spacing: 0.03em;
 }
 
+#about-hr {
+  margin-left: 13%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #fff;
+}
+
 hr {
   position: relative;
   bottom: 30px;
   width: 65%;
-  border: 1px solid  #efe4e4;
+  border: 1px solid  #212121;
 }
 
 .hr {
-  margin-left: 200px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 /* About me section styling */
 
 #about-page-container {
   background-color: #1c1a19;
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
 }
 
 .about-me-container {
@@ -335,13 +348,15 @@ hr {
 }
 
 .about-me-info h2 {
-  color: #ff6b00;
+  width: 327px;
+  height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 50px !important;
+  font-size: 72px !important;
   line-height: 88px;
-  margin-bottom: 0 !important;
+  letter-spacing: 0.37px;
+  color: #ff6b00 !important;
 }
 
 .about-me-info p {
@@ -356,7 +371,7 @@ hr {
 
 .about-me-info button {
   color: #efe4e4;
-  background-color: #f55800;
+  background-color: #ff6b00;
   width: 40%;
   height: 51px;
   border: none;
@@ -370,10 +385,10 @@ hr {
 
 .about-flex-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
+  margin-right: 14%;
   margin-top: 30px;
 }
 
@@ -384,7 +399,8 @@ hr {
 }
 
 .about-flex-item h3 {
-  color: #f55800;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   margin-bottom: 10px;
   position: relative;
@@ -433,6 +449,120 @@ hr {
   color: #f55800;
 }
 
+/* form section styles */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 200px;
+  overflow-x: hidden;
+}
+
+.form-container > div:first-child {
+  flex: 1;
+  padding-bottom: 80px;
+  font-family: 'Inter', sans-serif;
+  color: #172b4d;
+}
+
+.form-container > div:last-child {
+  flex: 2;
+  width: 200px;
+}
+
+form > input {
+  height: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.first-input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 10px;
+  color: #979493;
+}
+
+.second-input {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 10px;
+  color: #979493;
+}
+
+.third-input {
+  width: 82.5%;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 10px;
+  color: #979493;
+}
+
+.fourth-input {
+  width: 82.5%;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  resize: both;
+  background-color: #fbf8f7;
+  border: none;
+  color: #3c3a39;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-btn {
+  color: #efe4e4;
+  background-color: #ff6b00;
+  border: none;
+  padding: 3px 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 750 !important;
+  font-size: 17px;
+  line-height: 50px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.form-btn:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+textarea::placeholder {
+  font-style: italic;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 40px 20px 40px;
+  overflow: hidden;
+}
+
+.foter-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 15px;
+  margin: 5px;
+  color: #505f79;
+}
+
+.footer-hr {
+  width: 99%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid #dfe1e6;
+}
+
 @media only screen and (max-width: 385px) {
   #headline {
     width: 100%;
@@ -474,8 +604,8 @@ hr {
   .contact-items ul {
     display: flex;
     flex-direction: row;
-    gap: 5px;
-    margin-right: 80px;
+    gap: 10px;
+    margin-right: 60px;
   }
 
   .prof {
@@ -546,7 +676,7 @@ hr {
 
   .first-desc ul li {
     display: inline-block;
-    margin: 10px 0;
+    margin-right: 8px;
     padding-left: 10px;
   }
 
@@ -566,7 +696,6 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #212121;
   }
 
   .item-child button {
@@ -589,7 +718,7 @@ hr {
 
   #about-page-container {
     background-color: #1c1a19;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
   }
 
   .about-me-container {
@@ -617,10 +746,10 @@ hr {
   }
 
   .about-me-info button {
-    color: white;
-    padding: 10px;
-    background-color: #f55800;
-    border: none;
+    color: white !important;
+    background-color: #ff6b00 !important;
+    border: none !important;
+    width: 40% !important;
   }
 
   .about-me-image {
@@ -633,9 +762,7 @@ hr {
   .about-flex-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 30px;
-    margin-right: 0;
+    margin-top: 0;
   }
 
   .about-flex-item {
@@ -668,6 +795,49 @@ hr {
     margin-bottom: 15px;
     list-style: none;
     color: white;
+  }
+
+  /* form section */
+
+  .form-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .form-container > div:first-child {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 30px;
+  }
+
+  .form-data {
+    padding: 0;
+  }
+
+  .form-container > div:last-child {
+    width: 100%;
+  }
+
+  .first-input,
+  .second-input,
+  .third-input,
+  .fourth-input,
+  form > input {
+    width: 100%;
+  }
+
+  .form-btn {
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 100px !important;
+  }
+
+  .second-input {
+    display: none;
   }
 }
 
@@ -767,6 +937,7 @@ hr {
     top: 0;
     left: 0;
     width: 100%;
+    border: 1px solid #212121;
   }
 
   .item-child button {
@@ -777,8 +948,8 @@ hr {
     font-size: 17px;
     background-color: #f55800;
     width: 100%;
-    height: 50px;
-    margin-bottom: -30px;
+    height: 55px;
+    margin-bottom: -20px;
     text-align: center;
   }
 
@@ -816,9 +987,15 @@ hr {
 
   .about-me-info button {
     color: white;
-    padding: 10px;
+    padding: 0;
     background-color: #f55800;
     border: none;
+    width: 20%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .about-me-image {
@@ -836,6 +1013,7 @@ hr {
   .about-flex-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     margin-top: 30px;
   }
@@ -870,5 +1048,51 @@ hr {
     margin-bottom: 15px;
     list-style: none;
     color: #efe4e4;
+  }
+
+  #about-hr {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  /* form section */
+
+  .form-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .form-container > div:first-child {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .form-container > div:last-child {
+    width: 100%;
+  }
+
+  .first-input,
+  .second-input,
+  .third-input,
+  .fourth-input,
+  form > input {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .second-input {
+    display: none;
+  }
+
+  .form-btn {
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 40%;
+  }
+
+  .footer-hr {
+    margin-bottom: 10px;
   }
 }

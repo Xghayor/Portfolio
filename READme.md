@@ -52,6 +52,8 @@
 - **Hero-Section**
 - **Projects**
 - **About-me**
+- **Contact-form**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +116,7 @@ To deploy this project, you can upload the project folder (including the HTML an
 👤 **Author1**
 
 - GitHub: [@Xghayor](https://github.com/Xghayor)
-- LinkedIn: [Ghayoorulbaqir](https://linkedin.com/in/ghayoor-ul-baqir)
+- LinkedIn: [@Ghayoorulbaqir](https://linkedin.com/in/ghayoor-ul-baqir)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,7 +125,7 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Contact-form**
+- [ ] **Desktop-Version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
