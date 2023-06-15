@@ -150,7 +150,6 @@ ul.navbar-items {
 }
 
 .first-desc p {
-  font-size: 16px !important;
   line-height: 25px;
   text-align: left;
 }
@@ -252,7 +251,9 @@ ul.navbar-items {
 .item-child button {
   display: none;
 }
-
+.first-desc ul {
+  padding-left: 0px;
+}
 .item-child ul {
   padding-left: 0;
   margin-left: 10px;
@@ -296,26 +297,28 @@ ul.navbar-items {
 }
 
 #about-hr {
-  margin-left: 13%;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 80%;
+  margin-left:200px;
   border: 1px solid #fff;
 }
 
-hr {
-  position: relative;
-  bottom: 30px;
-  width: 65%;
-  border: 1px solid  #212121;
+
+.hr-container{
+  display: grid;
+  gap: 20px;
 }
+
 
 .works-hr {
   position: relative;
-  bottom: 45px;
-  left: 40px;
+  bottom: 90px;
   width: 60%;
+  border: 1px solid  #212121;
+  margin-left: 500px;
+  overflow-x: hidden;
 }
+
+
 
 .hr {
   font-family: 'Crete Round', sans-serif;
@@ -324,6 +327,7 @@ hr {
   font-size: 40px;
   line-height: 52px;
   margin-left: 200px;
+  
 }
 
 /* About me section styling */
@@ -661,7 +665,6 @@ footer {
 
   .left-section img {
     float: none;
-    width: 100% !important;
   }
 
   .grid-container {
@@ -701,18 +704,13 @@ footer {
     color: #f4f5f7;
   }
 
-  .hr {
-    margin: 20px;
-    font-family: 'Crete Round', sans-serif;
-    color: #1c1a19;
+  .hr{
+    font-size: 45px;
   }
 
-  hr {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
+.works-hr{
+  left: 10px;
+}
 
   .item-child button {
     display: block;
@@ -948,12 +946,12 @@ footer {
     margin: 20px;
   }
 
-  hr {
-    position: relative !important;
-    width: 100% !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    border: 1px solid #212121;
+  .works-hr{
+    position: relative;
+    bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+    overflow-x: hidden;
   }
 
   .item-child button {
@@ -1069,6 +1067,7 @@ footer {
   #about-hr {
     margin-left: 0;
     margin-top: 50px;
+    width: 100%;
   }
 
   /* form section */
@@ -1111,4 +1110,22 @@ footer {
   .footer-hr {
     margin-bottom: 10px;
   }
+}
+
+
+
+@media screen and (min-width: 850px) and (max-width: 1370px) {
+ 
+  .left-section img{
+    width: 50%;
+  }
+
+  .works-hr{
+    width: 50%;
+  }
+  .about-flex-container{
+    margin-right: 0;
+  }
+
+ 
 }
