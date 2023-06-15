@@ -319,6 +319,7 @@ ul.navbar-items {
 }
 
 .hr {
+  color: #091e42;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -367,7 +368,7 @@ ul.navbar-items {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 72px !important;
+  font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -541,7 +542,7 @@ form > input {
   padding: 3px 15px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 750 !important;
+  font-weight: 750;
   font-size: 17px;
   line-height: 50px;
   letter-spacing: 0.03em;
@@ -643,7 +644,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px !important;
+    line-height: 24px;
   }
 
   /* works-section responsive style  */
@@ -708,7 +709,7 @@ footer {
 
   .works-hr {
     left: 5px;
-    width: 92% !important;
+    width: 92%;
   }
 
   .item-child button {
@@ -769,7 +770,7 @@ footer {
     flex: 1;
     width: 100%;
     height: auto;
-    margin-right: 250px !important;
+    margin-right: 250px;
   }
 
   .about-flex-container {
@@ -846,7 +847,7 @@ footer {
   .form-btn {
     font-size: 14px;
     line-height: 30px;
-    margin-left: 100px !important;
+    margin-left: 100px;
   }
 
   .second-input {
