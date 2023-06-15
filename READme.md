@@ -125,7 +125,8 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Desktop-Version**
+- [ ] **Accessibility**
+- [ ] **Dynamic**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
