@@ -1328,10 +1328,7 @@ footer {
   }
 }
 
-
-
 /* Animation testing */
-
 
 .navbar-items li.active {
   position: relative;
@@ -1355,6 +1352,7 @@ footer {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
