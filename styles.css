@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Crete Round', sans-serif;
@@ -582,13 +581,10 @@ footer {
 }
 
 @media only screen and (max-width: 385px) {
-<<<<<<< HEAD
 
   /* Mobile-menu */
 
   
-=======
->>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
   .navbar-items {
     background-color:rgb(35, 34, 34);
     position: absolute;
@@ -616,13 +612,10 @@ footer {
 .email-icon{
   display: none;
 }
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
   #headline {
     width: 100%;
     height: auto;
@@ -1396,3 +1389,4 @@ footer {
     margin-bottom: 10px;
   }
 }
+

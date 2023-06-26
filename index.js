@@ -23,8 +23,4 @@ function toggleMenu() {
     navbarItems.style.display = 'none';
     myLogo.style.visibility = 'visible';
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
