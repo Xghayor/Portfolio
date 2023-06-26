@@ -53,6 +53,7 @@
 - **Projects**
 - **About-me**
 - **Contact-form**
+- **Mobile-menu**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,7 +126,6 @@ To deploy this project, you can upload the project folder (including the HTML an
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Accessibility**
 - [ ] **Dynamic**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
