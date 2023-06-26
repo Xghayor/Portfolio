@@ -583,6 +583,33 @@ footer {
 }
 
 @media only screen and (max-width: 385px) {
+  .navbar-items {
+    background-color:rgb(35, 34, 34);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 600px;
+  }
+
+  .navbar-items li {
+    margin-bottom: 20px;
+    color: #FFF5E1;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 44px;
+    background-image: linear-gradient(to right, #6F6C6B 50%, transparent 50%);
+    background-position: 0 100%;
+    background-size: 150% 1px;
+    background-repeat: no-repeat;
+  }
+
+.email-icon{
+  display: none;
+}
   #headline {
     width: 100%;
     height: auto;
