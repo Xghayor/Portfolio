@@ -582,10 +582,13 @@ footer {
 }
 
 @media only screen and (max-width: 385px) {
+<<<<<<< HEAD
 
   /* Mobile-menu */
 
   
+=======
+>>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
   .navbar-items {
     background-color:rgb(35, 34, 34);
     position: absolute;
@@ -613,10 +616,13 @@ footer {
 .email-icon{
   display: none;
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
   #headline {
     width: 100%;
     height: auto;
@@ -1390,3 +1396,41 @@ footer {
     margin-bottom: 10px;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Animation testing */
+
+.navbar-items li.active {
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar-items li.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: red;
+  animation: backgroundFill 2s linear forwards;
+}
+
+@keyframes backgroundFill {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.navbar-items li.active a {
+  position: relative;
+  z-index: 1;
+}
+>>>>>>> ee3a58f1922024755c144a913e1b93778fb9f882
