@@ -600,7 +600,7 @@ footer {
     margin-bottom: 20px;
     color: #FFF5E1;
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'Inter',sans-serif;
     font-weight: 700;
     line-height: 44px;
     background-image: linear-gradient(to right, #6F6C6B 50%, transparent 50%);
@@ -609,14 +609,11 @@ footer {
     background-repeat: no-repeat;
   }
 
-.email-icon{
-  display: none;
-}
+  .email-icon{
+    display: none;
+  }
 
-
-
-
-  #headline {
+   #headline{
     width: 100%;
     height: auto;
     background-color: #1c1a19;
@@ -905,6 +902,7 @@ footer {
   }
 
   .navbar-items {
+    display: none;
     background-color:rgb(35, 34, 34);
     position: absolute;
     top: 30px;
@@ -916,12 +914,10 @@ footer {
   }
 
   .navbar-items li {
-    
-    
     margin-bottom: 20px;
     color: #FFF5E1;
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'Inter',sans-serif;
     font-weight: 700;
     line-height: 44px;
     background-image: linear-gradient(to right, #6F6C6B 50%, transparent 50%);
@@ -935,10 +931,7 @@ footer {
 }
 
 
-.navbar-items{
-  display: none;
-}
-  .hamburger i {
+  .hamburger i{
     color: white;
   }
 

@@ -24,3 +24,17 @@ function toggleMenu() {
     myLogo.style.visibility = 'visible';
   }
 }
+
+function reSize() {
+  const screenWidth = window.innerWidth;
+  if (screenWidth < 768 ) {
+    navbarItems.style.display='none';
+  }
+  if (screenWidth > 768) {
+    hamburger.textContent = 'menu';
+    navbarItems.style.display = 'flex';
+    myLogo.style.visibility = 'visible';
+  }
+}
+
+window.addEventListener('resize', reSize);
