@@ -3,16 +3,6 @@ const navbarItems = document.querySelector('.navbar-items');
 const myLogo = document.querySelector('.logo');
 const navbarItemLinks = document.querySelectorAll('.navbar-items li a');
 
-hamburger.addEventListener('click', () => {
-  toggleMenu();
-});
-
-navbarItemLinks.forEach((link) => {
-  link.addEventListener('click', () => {
-    toggleMenu();
-  });
-});
-
 function toggleMenu() {
   if (hamburger.textContent === 'menu') {
     hamburger.textContent = 'close';
@@ -25,10 +15,20 @@ function toggleMenu() {
   }
 }
 
+hamburger.addEventListener('click', () => {
+  toggleMenu();
+});
+
+navbarItemLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    toggleMenu();
+  });
+});
+
 function reSize() {
   const screenWidth = window.innerWidth;
-  if (screenWidth < 768 ) {
-    navbarItems.style.display='none';
+  if (screenWidth < 768) {
+    navbarItems.style.display = 'none';
   }
   if (screenWidth > 768) {
     hamburger.textContent = 'menu';

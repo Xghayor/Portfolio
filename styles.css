@@ -25,8 +25,6 @@ header {
   overflow-x: hidden;
 }
 
-
-
 .logo {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 700;
@@ -581,12 +579,11 @@ footer {
 }
 
 @media only screen and (max-width: 385px) {
-
   /* Mobile-menu */
 
-  
+
   .navbar-items {
-    background-color:rgb(35, 34, 34);
+    background-color: rgb(35, 34, 34);
     position: absolute;
     top: 30px;
     left: 0;
@@ -598,22 +595,22 @@ footer {
 
   .navbar-items li {
     margin-bottom: 20px;
-    color: #FFF5E1;
+    color: #fff5e1;
     font-size: 32px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 44px;
-    background-image: linear-gradient(to right, #6F6C6B 50%, transparent 50%);
+    background-image: linear-gradient(to right, #6f6c6b 50%, transparent 50%);
     background-position: 0 100%;
     background-size: 150% 1px;
     background-repeat: no-repeat;
   }
 
-  .email-icon{
+  .email-icon {
     display: none;
   }
 
-   #headline{
+  #headline {
     width: 100%;
     height: auto;
     background-color: #1c1a19;
@@ -903,7 +900,7 @@ footer {
 
   .navbar-items {
     display: none;
-    background-color:rgb(35, 34, 34);
+    background-color: rgb(35, 34, 34);
     position: absolute;
     top: 30px;
     left: 0;
@@ -915,23 +912,22 @@ footer {
 
   .navbar-items li {
     margin-bottom: 20px;
-    color: #FFF5E1;
+    color: #fff5e1;
     font-size: 32px;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 44px;
-    background-image: linear-gradient(to right, #6F6C6B 50%, transparent 50%);
+    background-image: linear-gradient(to right, #6f6c6b 50%, transparent 50%);
     background-position: 0 100%;
     background-size: 150% 1px;
     background-repeat: no-repeat;
   }
 
-.email-icon{
-  display: none;
-}
+  .email-icon {
+    display: none;
+  }
 
-
-  .hamburger i{
+  .hamburger i {
     color: white;
   }
 
@@ -1382,4 +1378,3 @@ footer {
     margin-bottom: 10px;
   }
 }
-
