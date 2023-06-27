@@ -39,10 +39,6 @@ function reSize() {
 
 window.addEventListener('resize', reSize);
 
-Navigate to branch : Popup-window
-edit Index.js file,
-after line no 40:
-enter all this code:
 ar projects = [
   {
     name: "Keeping track of hundreds  of components website",
