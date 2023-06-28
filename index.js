@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  for (let i = 2; i <= 6; i + 1) {
+  for (let i = 2; i <= 6; i += 1) {
     const gridNumber = i;
     const gridModalBtn = document.getElementById(`grid-${gridNumber}`);
 
