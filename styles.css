@@ -343,8 +343,8 @@ header {
   margin-left: 200px;
 }
 
-
 /* Modal Styles */
+
 .modal {
   display: none;
   position: fixed;
@@ -512,7 +512,6 @@ header {
   font-weight: 700;
   line-height: 44px;
 }
-
 
 /* About me section styling */
 
@@ -1426,7 +1425,6 @@ footer {
     padding: 2px 6px;
   }
 
-
   /* form section */
 
   .form-container {
@@ -1691,5 +1689,3 @@ footer {
     margin-bottom: 10px;
   }
 }
-
-/* form-section end */
