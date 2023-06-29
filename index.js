@@ -352,7 +352,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
 // Validate Contact Form
 
 document.getElementById("contact-form").addEventListener("submit", function (event) {
