@@ -366,3 +366,32 @@ document.getElementById('contact-form').addEventListener('submit', (event) => {
     document.getElementById('error').style.color = 'green';
   }
 });
+
+// local Storage
+
+window.addEventListener('DOMContentLoaded', function() {
+  const firstName = document.getElementById('fName');
+  const lastName = document.getElementById('lName');
+  const emailInput = document.getElementById('uEmail');
+  const messageInput = document.getElementById('message');
+  if (localStorage.getItem('formData')) {
+    const formData = JSON.parse(localStorage.getItem('formData'));
+    firstName.value = formData.nameFirst;
+    lastName.value = formData.nameLast;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
+  firstName.addEventListener('input', storeFormData);
+  lastName.addEventListener('input', storeFormData);
+  emailInput.addEventListener('input', storeFormData);
+  messageInput.addEventListener('input', storeFormData);
+  function storeFormData() {
+    const formData = {
+      nameFirst: firstName.value,
+      nameLast: lastName.value,
+      email: emailInput.value,
+      message: messageInput.value
+    };
+    localStorage.setItem('formData', JSON.stringify(formData));
+  }
+});
