@@ -239,11 +239,12 @@
       </div>
     </div>
     <div class="form-data">
-      <form action="https://formspree.io/f/xlekyljn" method="POST">
-          <input type="text" class="first-input" placeholder="Full Name" maxlength="30" required>
-          <input type="text"  class="second-input"  placeholder="Last Name" maxlength="30" required> <br>
-          <input  type="email"  class="third-input"  id="input4"  placeholder="Email Address"  required> <br>
-          <textarea type="text" class="fourth-input"  maxlength="500" name="message"  placeholder="Write me something..." required ></textarea> <br>
+      <form id="contact-form" action="https://formspree.io/f/xlekyljn" method="POST">
+        <input type="text" class="first-input" placeholder="Full Name" maxlength="30" name="fName" required>
+        <input type="text" class="second-input" placeholder="Last Name" maxlength="30" name="lName" required>
+        <input type="email" class="third-input" id="input4" placeholder="Email Address" name="uEmail" required><br>
+        <small id="error"></small>
+        <textarea type="text" class="fourth-input" maxlength="500" name="message" placeholder="Write me something..." required></textarea><br>
         <button type="submit" class="form-btn">Get in touch</button>
       </form>
     </div>
