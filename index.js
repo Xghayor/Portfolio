@@ -369,7 +369,7 @@ document.getElementById('contact-form').addEventListener('submit', (event) => {
 
 // local Storage
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', () => {
   const firstName = document.getElementById('fName');
   const lastName = document.getElementById('lName');
   const emailInput = document.getElementById('uEmail');
@@ -381,17 +381,19 @@ window.addEventListener('DOMContentLoaded', function() {
     emailInput.value = formData.email;
     messageInput.value = formData.message;
   }
-  firstName.addEventListener('input', storeFormData);
-  lastName.addEventListener('input', storeFormData);
-  emailInput.addEventListener('input', storeFormData);
-  messageInput.addEventListener('input', storeFormData);
+
   function storeFormData() {
     const formData = {
       nameFirst: firstName.value,
       nameLast: lastName.value,
       email: emailInput.value,
-      message: messageInput.value
+      message: messageInput.value,
     };
     localStorage.setItem('formData', JSON.stringify(formData));
   }
+
+  firstName.addEventListener('input', storeFormData);
+  lastName.addEventListener('input', storeFormData);
+  emailInput.addEventListener('input', storeFormData);
+  messageInput.addEventListener('input', storeFormData);
 });
