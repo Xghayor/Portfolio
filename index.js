@@ -354,15 +354,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Validate Contact Form
 
-document.getElementById("contact-form").addEventListener("submit", function (event) {
-  const emailInput = document.getElementById("input4");
+document.getElementById('contact-form').addEventListener('submit', (event) => {
+  const emailInput = document.getElementById('input4');
   const enteredEmail = emailInput.value.trim();
 
   if (enteredEmail !== enteredEmail.toLowerCase()) {
     event.preventDefault();
-    document.getElementById("error").textContent = "Please enter a valid lowercase email address. The form cannot be submitted until a valid email address is provided.";
+    document.getElementById('error').textContent = 'Please enter a valid lowercase email address. The form cannot be submitted until a valid email address is provided.';
   } else {
-    document.getElementById("error").textContent = "Submission successful";
-    document.getElementById('error').style.color ="green";
+    document.getElementById('error').textContent = 'Submission successful';
+    document.getElementById('error').style.color = 'green';
   }
 });
